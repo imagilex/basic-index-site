@@ -1,0 +1,54 @@
+:root {
+    --rosateresita: #9c4791;
+    --gris-bs: #ced4da;
+}
+
+#frmContacto {
+    border: 1px solid var(--gris-bs);
+    border-radius: 10px;
+    background-color: #ffffff;
+    z-index: 1500;
+}
+
+#frmContacto h5 {
+    background-color: var(--rosateresita);
+    border-radius: 5px;
+}
+
+#frmContacto button.btn.btn-send {
+    background-color: var(--rosateresita);
+}
+
+#frmContacto legend {
+    opacity: 0.65;
+    font-size: calc(16px * 0.85);
+    font-weight: 400;
+}
+
+#frmContacto fieldset {
+    border: 1px solid var(--gris-bs);
+}
+
+div#link-nav-bar .btn {
+    border: 0;
+}
+
+div#data-contact .btn {
+    border: 0;
+}
+
+div#data-contact img {
+    height: 100px;
+}
+
+@media (max-width: 500px) {
+    #frmContacto {
+        width: 95%;
+    }
+}
+
+@media (min-width: 501px) {
+    #frmContacto {
+        min-width: 300px;
+    }
+}
